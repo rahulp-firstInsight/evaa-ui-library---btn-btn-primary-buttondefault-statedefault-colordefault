@@ -1,6 +1,6 @@
 import React from "react";
 import { IconClose } from "../IconClose";
-import "./style.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 interface Props {
   label: string;
@@ -24,7 +24,7 @@ export const PrimaryButton = ({
       className={`d-flex align-items-center justify-content-center btn btn-primary ${className}`}
     >
       <div className="text-white">{label}</div>
-      {hasIcon && <IconClose className="icon-close-instance" />}
+      {hasIcon && <IconClose className="ms-2" />}
     </div>
   );
 };

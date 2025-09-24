@@ -1,5 +1,24 @@
+.primary-button {
+  aspect-ratio: 3.71;
+  background-color: #ec407a;
+  border-radius: 8px;
+  gap: 20px;
+  overflow: hidden;
+  padding: 8px 20px;
+  width: 176px;
+}
+
+.button {
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 24px;
+  text-align: center;
+  width: 86px;
+}
+
 .icon-close-instance {
-  background-image: url(https://c.animaapp.com/SUYK3Rjh/img/icon-close-3.svg) !important;
+  background-image: url(https://c.animaapp.com/jd0sfx5J/img/icon-close-3.svg) !important;
   height: 23.82px !important;
   width: 19.8px !important;
 }
