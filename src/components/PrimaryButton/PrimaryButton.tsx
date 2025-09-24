@@ -1,0 +1,30 @@
+import React from "react";
+import { IconCalendar } from "../IconCalendar";
+import "./style.scss";
+
+interface Props {
+  label: string;
+  hasIcon: boolean;
+  btnBtnPrimaryButton: "default";
+  state: "default";
+  color: "default";
+  className: any;
+}
+
+export const PrimaryButton = ({
+  label = "Button",
+  hasIcon = true,
+  btnBtnPrimaryButton,
+  state,
+  color,
+  className,
+}: Props): JSX.Element => {
+  return (
+    <div
+      className={`d-flex align-items-center justify-content-center btn btn-primary ${className}`}
+    >
+      <div className="text-white">{label}</div>
+      {hasIcon && <IconCalendar className="ms-2" />}
+    </div>
+  );
+};
