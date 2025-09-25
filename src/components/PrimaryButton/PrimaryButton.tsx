@@ -1,6 +1,6 @@
 import React from "react";
 import { IconClose } from "../IconClose";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.scss";
 
 interface Props {
   label: string;

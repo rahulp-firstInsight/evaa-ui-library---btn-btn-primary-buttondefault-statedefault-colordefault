@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 
 interface Props {
-  className: string;
+  className: any;
 }
 
 export const IconClose = ({ className }: Props): JSX.Element => {
